@@ -1,0 +1,47 @@
+body{
+    background: -webkit-gradient(linear, left bottom, right top, from(#1687ED), to(#A91C78));;
+}
+
+td{
+    height: 87px;
+    width: 90px;
+    background-color: aliceblue;
+}
+
+
+#anima-div{
+    text-align: center;
+    width: 90px;
+    height: 80px;
+    position: relative;
+    animation: /*nome da animação*/ mov-div /* tempo da animação */ 11s /*como ela vai ser loop, infinito*/ infinite;
+}
+
+@keyframes mov-div{
+    0%{top:0px; left:0px;}
+    4%{top: 100px; left:0px;}
+    8%{top: 200px; left:0px;}
+    12%{top: 200px; left:130px;}
+    16%{top: 200px; left:250px;}
+    20%{top: 200px; left:380px;}
+    24%{top: 290px; left:380px;}
+    28%{top: 390px; left:380px;}
+    32%{top: 485px; left:380px;}
+    36%{top: 485px; left:500px;}
+    40%{top: 580px; left:500px;}
+    44%{top: 680px; left:500px;}
+    48%{top: 680px; left:630px;}
+    52%{top: 680px; left:630px;}
+    56%{top: 680px; left:500px;}
+    60%{top: 580px; left:500px;}
+    64%{top: 485px; left:500px;}
+    68%{top: 485px; left:380px;}
+    72%{top: 390px; left:380px;}
+    76%{top: 290px; left:380px;}
+    80%{top: 200px; left:380px;}
+    84%{top: 200px; left:250px;}
+    88%{top: 200px; left:130px;}
+    92%{top: 200px; left:0px;}
+    96%{top: 100px; left:0px;}
+    100%{top:0px; left:0px;}
+}
